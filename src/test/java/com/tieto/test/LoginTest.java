@@ -29,7 +29,7 @@ public class LoginTest extends WebDriverWrapper {
 	public void countlinksTest()
 	{
 		int a = driver.findElements(By.tagName("a")).size();
-		Assert.assertEquals(a,1);
+		Assert.assertEquals(a,1); 
 		
 	}
 	
